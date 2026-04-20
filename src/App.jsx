@@ -10,7 +10,7 @@ export default function App () {
 
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/galeria" element={<Galeria />} />
+                <Route path="/gabileria" element={<Galeria />} />
             </Routes>
         </BrowserRouter>
     )

@@ -11,7 +11,7 @@ export default function NavBar() {
     <span className="gabiela">gabiela</span>
     <nav className="menu">
         <Link to="/">inicio</Link>
-        <Link to="/galeria">galeria</Link>
+        <Link to="/gabileria">gabileria</Link>
         <div
         className = "social-media"
         onMouseEnter={() => setHovered(true)}

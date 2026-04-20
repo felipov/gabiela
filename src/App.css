@@ -128,13 +128,38 @@ body::before {
 
 /* galeria */
 
-.galeria {
+.gabileria {
   columns: 3;
-  margin-left: 50px;
+  max-width: 75vw;
+  margin-left: 150px;
 }
 
-.galeria img {
+.gabileria img {
   max-width: 20rem;
   object-fit: contain;
   margin: 10px;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background: rgba(0,0,0,0.8);
+  animation: aparecer 0.3s
+}
+
+.foto-ampliada {
+  width: 90vw; /* 90% da largura da tela */
+  height: 90vh; /* 90% da altura da tela */
+  object-fit: contain;
+  
+  cursor: zoom-out;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+
+  flex-shrink: 0;
 }
